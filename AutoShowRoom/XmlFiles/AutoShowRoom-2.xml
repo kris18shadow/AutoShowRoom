@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE auto-showroom SYSTEM "AutoShowRoom.dtd">
+<auto-showroom>
+    <showroomName>АутоПлюс</showroomName>
+    <cars>
+        <car car-id="a2-c101" added-by="a2-e2" in-stock="t" new = "f" total-orders = "2" country-of-origin = "Германия">
+            <brand>БМВ</brand>
+            <model>520</model>
+            <power>150 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Просторна семейна кола с голям багажник и мощен двигател.</description>
+            <class>седан</class>
+            <price>6500 лв.</price>
+			<color>сив</color>
+			<weight>1520 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>5</seats>
+        </car>
+        <car car-id="a2-c102" added-by="a2-e1" in-stock="t" new = "f" total-orders = "2" country-of-origin = "Германия">
+            <brand>Форд</brand>
+            <model>Мондео</model>
+            <power>115 к.с.</power>
+            <fuel>дизел</fuel>
+            <description>Евтин семеен седан.</description>
+            <class>седан</class>
+            <price>3500 лв.</price>
+			<color>бял</color>
+			<weight>1460 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>5</seats>
+        </car>
+        <car car-id="a2-c103" added-by="a2-e3" in-stock="t" new = "f" total-orders = "2" country-of-origin = "Германия">
+            <brand>БМВ</brand>
+            <model>740</model>
+            <power>325 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Спортен луксозен автомобил.</description>
+            <class>седан</class>
+            <price>14000 лв.</price>
+			<color>сив</color>
+			<weight>1720 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>5</seats>
+        </car>
+        <car car-id="a2-c104" added-by="a2-e4" in-stock="t" new = "f" total-orders = "2" country-of-origin = "Германия">
+            <brand>Мерцедес</brand>
+            <model>Ц200</model>
+            <power>135 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Малък немски седан.</description>
+            <class>седан</class>
+            <price>6300 лв.</price>
+			<color>сив</color>
+			<weight>1520 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>5</seats>
+        </car> 
+        <car car-id="a2-c105" added-by="a2-e1" in-stock="t" new = "f" total-orders = "2" country-of-origin = "Германия">
+            <brand>Шкода</brand>
+            <model>Октавия</model>
+            <power>100 к.с.</power>
+            <fuel>дизел</fuel>
+            <description>Евтина и икономична алтернатива.</description>
+            <class>седан</class>
+            <price>1900 лв.</price>
+			<color>червен</color>
+			<weight>1470 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>5</seats>
+        </car>
+    </cars>
+    <employees>
+        <employee employee-id="a2-e1">
+            <employee-name>Александър Белгийски</employee-name>
+			<employee-salary> 4500 лв.</employee-salary>
+            <employee-position>собственик</employee-position>
+        </employee>
+        <employee employee-id="a2-e2">
+            <employee-name>Васил Петканов</employee-name>
+			<employee-salary> 3500 лв.</employee-salary>
+            <employee-position>мениджър</employee-position>
+        </employee>
+        <employee employee-id="a2-e3">
+            <employee-name>Асен Миноров</employee-name>
+			<employee-salary> 1500 лв.</employee-salary>
+            <employee-position>асистент</employee-position>
+        </employee>
+        <employee employee-id="a2-e4">
+            <employee-name>Божан Петров</employee-name>
+			<employee-salary> 1500 лв.</employee-salary>
+            <employee-position>асистент</employee-position>
+        </employee>
+        <employee employee-id="a2-e5">
+            <employee-name>Валентин Михайлов</employee-name>
+			<employee-salary> 1500 лв.</employee-salary>
+            <employee-position>механик</employee-position>
+        </employee>
+    </employees>
+    <orders>
+        <order order-id="two-or1" ordered-products="a2-c102" processed-by="a2-e3">
+            <order-date>11.12.2015</order-date>
+            <total-price>3500 лв.</total-price>
+            <client-info>
+                <client-name>Георги Петранов</client-name>
+                <client-address>
+                    <city>София</city>
+                    <address>жк.Красно село, бл125А ет.2 ап.13</address>
+                </client-address>
+                <client-telephone>0888152355</client-telephone>
+            </client-info>
+        </order>
+        <order order-id="two-or2" ordered-products="a2-c104" processed-by="a2-e3">
+            <order-date>14.12.2015</order-date>
+            <total-price>6300 лв.</total-price>
+            <client-info>
+                <client-name>Веско Мирков</client-name>
+                <client-address>
+                    <city>Пловдив</city>
+                    <address>жк.Права ливада, бл12А ет.1 ап.2</address>
+                </client-address>
+                <client-telephone>087252455</client-telephone>
+            </client-info>
+        </order>
+    </orders>
+</auto-showroom>

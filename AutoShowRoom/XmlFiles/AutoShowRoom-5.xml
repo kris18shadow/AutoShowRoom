@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE auto-showroom SYSTEM "AutoShowRoom.dtd">
+<auto-showroom>
+    <showroomName>АутоЕкзотик</showroomName>
+    <cars>
+        <car car-id="a5-c101" added-by="a5-e2" in-stock="t" new = "t" total-orders = "3" country-of-origin = "САЩ">
+            <brand>Тесла</brand>
+            <model>П75Д</model>
+            <power>400 к.с.</power>
+            <fuel>електричество</fuel>
+            <description>Икономична, мощна и природосъобразна електрическа кола.</description>
+            <class>седан</class>
+            <price>155500 лв.</price>
+			<color>черен</color>
+			<weight>2320 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>5</seats>
+        </car>
+        <car car-id="a5-c102" added-by="a5-e2" in-stock="f" new = "t" total-orders = "1" country-of-origin = "Великобритания">
+            <brand>Катерхам</brand>
+            <model>Ц250</model>
+            <power>250 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Спортно олекотено кабрио.</description>
+            <class>кабрио</class>
+            <price>44500 лв.</price>
+			<color>жилт</color>
+			<weight>1020 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>2</seats>
+        </car>
+        <car car-id="a5-c103" added-by="a5-e2" in-stock="t" new = "t" total-orders = "2" country-of-origin = "Великобритания">
+            <brand>Лотус</brand>
+            <model>Елиз</model>
+            <power>380 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Британска спортна кола с две врати.</description>
+            <class>купе</class>
+            <price>150000 лв.</price>
+			<color>зелен</color>
+			<weight>1220 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>2</seats>
+        </car>        
+    </cars>
+    <employees>
+        <employee employee-id="a5-e1">
+            <employee-name>Йордан Петкановски</employee-name>
+			<employee-salary> 4500 лв.</employee-salary>
+            <employee-position>собственик</employee-position>
+        </employee>
+        <employee employee-id="a5-e2">
+            <employee-name>Васил Методиев</employee-name>
+			<employee-salary> 4500 лв.</employee-salary>
+            <employee-position>мениджър</employee-position>
+        </employee>       
+    </employees>
+    <orders>        
+        <order order-id="five-or1" ordered-products="a5-c102" processed-by="a5-e2">
+            <order-date>27.12.2015</order-date>
+            <total-price>44500лв.</total-price>
+            <client-info>
+                <client-name>Стилян Иванов</client-name>
+                <client-address>
+                    <city>София</city>
+                    <address>жк.Симеоново, ул. Бяла бреза номер 14</address>
+                </client-address>
+                <client-telephone>088234559</client-telephone>
+            </client-info>
+        </order>
+    </orders>
+</auto-showroom>

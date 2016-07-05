@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE auto-showroom SYSTEM "AutoShowRoom.dtd">
+<auto-showroom>
+    <showroomName>ОфроудАуто</showroomName>
+    <cars>
+        <car car-id="a4-c101" added-by="a4-e3" in-stock="t" new = "t" total-orders = "2" country-of-origin = "Германия">
+            <brand>Мерцедес</brand>
+            <model>Джи-Ел</model>
+            <power>355 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Луксозен офроудър.</description>
+            <class>джип</class>
+            <price>75500 лв.</price>
+			<color>черен</color>
+			<weight>1820 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>7</seats>
+        </car>
+        <car car-id="a4-c102" added-by="a4-e4" in-stock="t" new = "f" total-orders = "1" country-of-origin = "САЩ">
+            <brand>Форд</brand>
+            <model>Експлорър</model>
+            <power>190 к.с.</power>
+            <fuel>дизел</fuel>
+            <description>Американски висок офроудър.</description>
+            <class>джип</class>
+            <price>6500 лв.</price>
+			<color>бял</color>
+			<weight>1720 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>5</seats>
+        </car>
+        <car car-id="a4-c103" added-by="a4-e2" in-stock="t" new = "f" total-orders = "2" country-of-origin = "Германия">
+            <brand>БМВ</brand>
+            <model>Екс3</model>
+            <power>240 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Немски офроудър с икономичен двигател.</description>
+            <class>джип</class>
+            <price>18000 лв.</price>
+			<color>червен</color>
+			<weight>1620 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>5</seats>
+        </car>
+        <car car-id="a4-c104" added-by="a4-e1" in-stock="t" new = "f" total-orders = "3" country-of-origin = "Япония">
+            <brand>Нисан</brand>
+            <model>Патрул</model>
+            <power>160 к.с.</power>
+            <fuel>дизел</fuel>
+            <description>Здрав и голям японски офроудър.</description>
+            <class>джип</class>
+            <price>15000 лв.</price>
+			<color>сив</color>
+			<weight>1320 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>7</seats>
+        </car> 
+        <car car-id="a4-c105" added-by="a4-e1" in-stock="t" new = "f" total-orders = "2" country-of-origin = "САЩ">
+            <brand>Хамър</brand>
+            <model>Х2</model>
+            <power>385 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Американски офроудър с голям двигател и висок разход.</description>
+            <class>джип</class>
+            <price>110000 лв.</price>
+			<color>зелен</color>
+			<weight>1320 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>5</seats>
+        </car>
+    </cars>
+    <employees>
+        <employee employee-id="a4-e1">
+            <employee-name>Иван Иванов</employee-name>
+			<employee-salary> 4500 лв.</employee-salary>
+            <employee-position>собственик</employee-position>
+        </employee>
+        <employee employee-id="a4-e2">
+            <employee-name>Стойко Сърменов</employee-name>
+			<employee-salary> 3500 лв.</employee-salary>
+            <employee-position>мениджър</employee-position>
+        </employee>
+        <employee employee-id="a4-e3">
+            <employee-name>Ивайло Петров</employee-name>
+			<employee-salary> 1500 лв.</employee-salary>
+            <employee-position>асистент</employee-position>
+        </employee>
+        <employee employee-id="a4-e4">
+            <employee-name>Веселин Павлов</employee-name>
+			<employee-salary> 1500 лв.</employee-salary>
+            <employee-position>механик</employee-position>
+        </employee>
+        <employee employee-id="a4-e5">
+            <employee-name>Станимир Карамфилов</employee-name>
+			<employee-salary> 1500 лв.</employee-salary>
+            <employee-position>механик</employee-position>
+        </employee>
+    </employees>
+    <orders>        
+    </orders>
+</auto-showroom>

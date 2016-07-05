@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE auto-showroom SYSTEM "AutoShowRoom.dtd">
+<auto-showroom>
+    <showroomName>АутоШоп</showroomName>
+    <cars>
+        <car car-id="a6-c101" added-by="a6-e3" in-stock="t" new = "f" total-orders = "2" country-of-origin = "Италия">
+            <brand>Алфа Ромео</brand>
+            <model>147</model>
+            <power>155 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Малка семейна кола.</description>
+            <class>хетчбек</class>
+            <price>4500 лв.</price>
+            <color>сив</color>
+			<weight>1220 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+			<seats>5</seats>
+        </car>
+        <car car-id="a6-c102" added-by="a6-e4" in-stock="f"  new = "f" total-orders = "1" country-of-origin = "Германия">
+            <brand>фолксваген</brand>
+            <model>Голф</model>
+            <power>90 к.с.</power>
+            <fuel>дизел</fuel>
+            <description>Малък немски автомобил.</description>
+            <class>хетчбек</class>
+            <price>4500 лв.</price>
+			<color>син</color>
+			<weight>1420 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>5</seats>
+        </car>
+        <car car-id="a6-c103" added-by="a6-e2" in-stock="t"  new = "f" total-orders = "1" country-of-origin = "Германия">
+            <brand>БМВ</brand>
+            <model>М3</model>
+            <power>325 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Спортна кола с две врати.</description>
+            <class>купе</class>
+            <price>11000 лв.</price>
+			<color>бял</color>
+			<weight>1540 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>4</seats>
+        </car>
+        <car car-id="a6-c104" added-by="a6-e1" in-stock="t" new = "t" total-orders = "5" country-of-origin = "Германия">
+            <brand>Мерцедес</brand>
+            <model>S500</model>
+            <power>367 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Луксозен седан с високо ниво на оборудване.</description>
+            <class>седан</class>
+            <price>15000 лв.</price>
+			<color>сив</color>
+			<weight>1550 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>5</seats>
+        </car> 
+        <car car-id="a6-c105" added-by="a6-e1" in-stock="f" new = "t" total-orders = "1" country-of-origin = "Германия">
+            <brand>Порше</brand>
+            <model>Cayman</model>
+            <power>285 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Супер-спортна кола със задно-разположен вдигател.</description>
+            <class>купе</class>
+            <price>70000 лв.</price>
+			<color>сив</color>
+			<weight>1320 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>2</seats>
+        </car>
+    </cars>
+    <employees>
+        <employee employee-id="a6-e1">
+            <employee-name>Иван Василев</employee-name>
+			<employee-salary> 4500 лв.</employee-salary>
+            <employee-position>собственик</employee-position>
+        </employee>
+        <employee employee-id="a6-e2">
+            <employee-name>Пламен Илиев</employee-name>
+			<employee-salary> 2500 лв.</employee-salary>
+            <employee-position>мениджър</employee-position>
+        </employee>
+        <employee employee-id="a6-e3">
+            <employee-name>Боян Демирев</employee-name>
+			<employee-salary> 1500 лв.</employee-salary>
+            <employee-position>асистент</employee-position>
+        </employee>
+        <employee employee-id="a6-e4">
+            <employee-name>Борис Николов</employee-name>
+			<employee-salary> 1500 лв.</employee-salary>
+            <employee-position>асистент</employee-position>
+        </employee>
+        <employee employee-id="a6-e5">
+            <employee-name>Пламен Стоименов</employee-name>
+			<employee-salary> 2500 лв.</employee-salary>
+            <employee-position>механик</employee-position>
+        </employee>
+    </employees>
+    <orders>
+        <order order-id="six-or1" ordered-products="a6-c105" processed-by="a6-e4">
+            <order-date>11.12.2015</order-date>
+            <total-price>70000 лв.</total-price>
+            <client-info>
+                <client-name>Георги Пламенов</client-name>
+                <client-address>
+                    <city>София</city>
+                    <address>жк.Дианабад, бл137А ет.4 ап.13</address>
+                </client-address>
+                <client-telephone>0888851455</client-telephone>
+            </client-info>
+        </order>
+        <order order-id="six-or2" ordered-products="a6-c102" processed-by="a6-e4">
+            <order-date>14.12.2015</order-date>
+            <total-price>4500лв.</total-price>
+            <client-info>
+                <client-name>Иван Василев</client-name>
+                <client-address>
+                    <city>София</city>
+                    <address>жк.Бели брези, бл127А ет.1 ап.2</address>
+                </client-address>
+                <client-telephone>087256355</client-telephone>
+            </client-info>
+        </order>
+    </orders>
+</auto-showroom>

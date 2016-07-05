@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE auto-showroom SYSTEM "AutoShowRoom.dtd">
+<auto-showroom>
+    <showroomName>ТопАуто</showroomName>
+    <cars>
+        <car car-id="a10-c101" added-by="a10-e2" in-stock="t" new = "t" total-orders = "3" country-of-origin = "САЩ">
+            <brand>Форд</brand>
+            <model>ДжиТи</model>
+            <power>400 к.с.</power>
+            <fuel>безнзин</fuel>
+            <description>Спортен американски автомобил.</description>
+            <class>купе</class>
+            <price>155500 лв.</price>
+			<color>черен</color>
+			<weight>1320 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>5</seats>
+        </car>
+        <car car-id="a10-c102" added-by="a10-e2" in-stock="f" new = "t" total-orders = "1" country-of-origin = "Великобритания">
+            <brand>Ягуар</brand>
+            <model>ЕксДжей</model>
+            <power>250 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Спортно олекотено кабрио.</description>
+            <class>кабрио</class>
+            <price>44500 лв.</price>
+			<color>жилт</color>
+			<weight>1020 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>2</seats>
+        </car>
+        <car car-id="a10-c103" added-by="a10-e2" in-stock="t" new = "t" total-orders = "2" country-of-origin = "Великобритания">
+            <brand>Астън Мартин</brand>
+            <model>Вантидж</model>
+            <power>384 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Британска спортна кола с две врати.</description>
+            <class>купе</class>
+            <price>150000 лв.</price>
+			<color>бял</color>
+			<weight>1220 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>2</seats>
+        </car>        
+    </cars>
+    <employees>
+        <employee employee-id="a10-e1">
+            <employee-name>Иван Иванов</employee-name>
+			<employee-salary> 4500 лв.</employee-salary>
+            <employee-position>собственик</employee-position>
+        </employee>
+        <employee employee-id="a10-e2">
+            <employee-name>Георги Методиев</employee-name>
+			<employee-salary> 4500 лв.</employee-salary>
+            <employee-position>мениджър</employee-position>
+        </employee>       
+    </employees>
+    <orders>        
+        <order order-id="a10-or1" ordered-products="a10-c102" processed-by="a10-e2">
+            <order-date>27.12.2015</order-date>
+            <total-price>44500лв.</total-price>
+            <client-info>
+                <client-name>Бойко Борисов</client-name>
+                <client-address>
+                    <city>София</city>
+                    <address>жк.Бояна, ул. Бяла бреза номер 14</address>
+                </client-address>
+                <client-telephone>088234559</client-telephone>
+            </client-info>
+        </order>
+    </orders>
+</auto-showroom>

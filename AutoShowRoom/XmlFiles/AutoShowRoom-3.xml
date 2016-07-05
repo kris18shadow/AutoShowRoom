@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE auto-showroom SYSTEM "AutoShowRoom.dtd">
+<auto-showroom>
+    <showroomName>ЛуксАуто</showroomName>
+    <cars>
+        <car car-id="a3-c101" added-by="a3-e3" in-stock="t" new = "f" total-orders = "2" country-of-origin = "Япония">
+            <brand>Нисан</brand>
+            <model>Скайлайн</model>
+            <power>324 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Японски спортен автомобил.</description>
+            <class>купе</class>
+            <price>9500 лв.</price>
+			<color>сив</color>
+			<weight>1320 кг.</weight>
+			<safety-rating> 4/5 </safety-rating>
+            <seats>2</seats>
+        </car>
+        <car car-id="a3-c102" added-by="a3-e2" in-stock="f" new = "f" total-orders = "2" country-of-origin = "САЩ">
+            <brand>Форд</brand>
+            <model>Мустанг</model>
+            <power>290 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Американска спортна кола.</description>
+            <class>купе</class>
+            <price>24500 лв.</price>
+			<color>сив</color>
+			<weight>1720 кг.</weight>
+			<safety-rating> 2/5 </safety-rating>
+            <seats>4</seats>
+        </car>
+        <car car-id="a3-c103" added-by="a3-e2" in-stock="t" new = "f" total-orders = "2" country-of-origin = "Германия">
+            <brand>Порше</brand>
+            <model>Бокстър</model>
+            <power>280 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Спортен немски кабриолет.</description>
+            <class>кабрио</class>
+            <price>110000 лв.</price>
+			<color>сив</color>
+			<weight>1320 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>2</seats>
+        </car>
+        <car car-id="a3-c104" added-by="a3-e1" in-stock="t" new = "f" total-orders = "2" country-of-origin = "Германия">
+            <brand>Мерцедес</brand>
+            <model>СЛК350</model>
+            <power>267 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Луксозно малко кабрио.</description>
+            <class>купе</class>
+            <price>65000 лв.</price>
+			<color>сив</color>
+			<weight>1520 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>2</seats>
+        </car> 
+        <car car-id="a3-c105" added-by="a3-e1" in-stock="t" new = "f" total-orders = "2" country-of-origin = "Германия">
+            <brand>Порше</brand>
+            <model>Кайен</model>
+            <power>385 к.с.</power>
+            <fuel>бензин</fuel>
+            <description>Немски луксозен джип.</description>
+            <class>джип</class>
+            <price>110000 лв.</price>
+			<color>сив</color>
+			<weight>1920 кг.</weight>
+			<safety-rating> 5/5 </safety-rating>
+            <seats>5</seats>
+        </car>
+    </cars>
+    <employees>
+        <employee employee-id="a3-e1">
+            <employee-name>Петър Стоянов</employee-name>
+			<employee-salary> 4500 лв.</employee-salary>
+            <employee-position>собственик</employee-position>
+        </employee>
+        <employee employee-id="a3-e2">
+            <employee-name>Иван Сосков</employee-name>
+			<employee-salary> 3500 лв.</employee-salary>
+            <employee-position>мениджър</employee-position>
+        </employee>
+        <employee employee-id="a3-e3">
+            <employee-name>Станимир Крайчовски</employee-name>
+			<employee-salary> 3500 лв.</employee-salary>
+            <employee-position>механик</employee-position>
+        </employee>
+    </employees>
+    <orders>        
+        <order order-id="a3-or1" ordered-products="a3-c102" processed-by="a3-e2">
+            <order-date>01.01.2016</order-date>
+            <total-price>24500лв.</total-price>
+            <client-info>
+                <client-name>Иван Иванов</client-name>
+                <client-address>
+                    <city>Плевен</city>
+                    <address>жк.Свобода, бл17Б ет.5 ап.42</address>
+                </client-address>
+                <client-telephone>087764852</client-telephone>
+            </client-info>
+        </order>
+    </orders>
+</auto-showroom>

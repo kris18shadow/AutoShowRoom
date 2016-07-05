@@ -1,0 +1,46 @@
+<!ELEMENT auto-showroom (showroomName, cars, employees, orders?) >
+<!ELEMENT showroomName (#PCDATA) >
+<!ELEMENT cars (car+) >
+<!ELEMENT employees (employee+) >
+<!ELEMENT orders (order*) >
+
+<!ELEMENT car (brand, model, power, fuel, description, class, price, color, weight, safety-rating, seats) >
+<!ELEMENT brand (#PCDATA) >
+<!ELEMENT model (#PCDATA) >
+<!ELEMENT power (#PCDATA) >
+<!ELEMENT fuel (#PCDATA) >
+<!ELEMENT description (#PCDATA) >
+<!ELEMENT class (#PCDATA) >
+<!ELEMENT price (#PCDATA) >
+<!ELEMENT color (#PCDATA) >
+<!ELEMENT weight (#PCDATA) >
+<!ELEMENT safety-rating (#PCDATA) >
+<!ELEMENT seats (#PCDATA) >
+
+<!ELEMENT employee (employee-name, employee-salary, employee-position) >
+<!ELEMENT employee-name (#PCDATA) >
+<!ELEMENT employee-salary (#PCDATA) >
+<!ELEMENT employee-position (#PCDATA) >
+
+<!ELEMENT order (order-date, total-price, client-info) >
+<!ELEMENT order-date (#PCDATA) >
+<!ELEMENT total-price (#PCDATA) >
+<!ELEMENT client-info (client-name, client-address, client-telephone?) >
+<!ELEMENT client-name (#PCDATA) >
+<!ELEMENT client-telephone (#PCDATA) >
+<!ELEMENT client-address (city, address) >
+<!ELEMENT city (#PCDATA) >
+<!ELEMENT address (#PCDATA) >
+
+<!ATTLIST car car-id ID #REQUIRED 
+              added-by IDREF #REQUIRED
+              in-stock (t|f) #REQUIRED
+              new (t|f) #REQUIRED
+              total-orders CDATA   #REQUIRED
+              country-of-origin CDATA #REQUIRED>
+
+<!ATTLIST employee employee-id ID #REQUIRED >
+
+<!ATTLIST order order-id ID #REQUIRED
+                ordered-products IDREFS #REQUIRED
+                processed-by IDREF #REQUIRED>

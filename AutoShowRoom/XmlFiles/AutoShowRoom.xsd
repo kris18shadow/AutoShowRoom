@@ -1,0 +1,86 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="auto-showroom">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="showroomName"/>
+        <xs:element name="cars">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="model"/>
+                    <xs:element type="xs:string" name="power"/>
+                    <xs:element type="xs:string" name="fuel"/>
+                    <xs:element type="xs:string" name="description"/>
+                    <xs:element type="xs:string" name="class"/>
+                    <xs:element type="xs:string" name="price"/>
+                    <xs:element type="xs:string" name="color"/>
+                    <xs:element type="xs:string" name="weight"/>
+                    <xs:element type="xs:string" name="safety-rating"/>
+                    <xs:element type="xs:byte" name="seats"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="car-id" use="optional"/>
+                  <xs:attribute type="xs:string" name="added-by" use="optional"/>
+                  <xs:attribute type="xs:string" name="in-stock" use="optional"/>
+                  <xs:attribute type="xs:string" name="new" use="optional"/>
+                  <xs:attribute type="xs:byte" name="total-orders" use="optional"/>
+                  <xs:attribute type="xs:string" name="country-of-origin" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="employees">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="employee" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="employee-name"/>
+                    <xs:element type="xs:string" name="employee-salary"/>
+                    <xs:element type="xs:string" name="employee-position"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="employee-id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="orders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="order" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="order-date"/>
+                    <xs:element type="xs:string" name="total-price"/>
+                    <xs:element name="client-info">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="client-name"/>
+                          <xs:element name="client-address">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="city"/>
+                                <xs:element type="xs:string" name="address"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:int" name="client-telephone"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="order-id" use="optional"/>
+                  <xs:attribute type="xs:string" name="ordered-products" use="optional"/>
+                  <xs:attribute type="xs:string" name="processed-by" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,53 @@
+﻿@{
+    var title = "";
+    var genre = "";
+    var year = "";
+
+    if (IsPost)
+    {
+        title = Request.Form["title"];
+        genre = Request.Form["genre"];
+        year = Request.Form["year"];
+    }
+
+    //var db = open("WebPagesMovies");
+    //var insertCommand = "INSERT INTO Movies (Title, Genre, Year) Values(@0, @1, @2)";
+    //db.Execute(insertCommand, title, genre, year);
+    //esponse.Redirect("~/Movies");
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AutoShowRoom</title>
+</head>
+<body>
+    <h1>Add new autoshowroom</h1>
+    <form method="post">
+        <fieldset>
+            <legend>Autoshowroom Information</legend>
+            <p>
+                <label for="showroomName">showroomName:</label>
+                <input type="text" name="showroomName" value="@Request.Form["showroomName"]" />
+            </p>
+
+
+
+
+
+            <p>
+                <label for="genre">Genre:</label>
+                <input type="text" name="genre" value="@Request.Form["genre"]" />
+            </p>
+
+            <p>
+                <label for="year">Year:</label>
+                <input type="text" name="year" value="@Request.Form["year"]" />
+            </p>
+
+            <p><input type="submit" name="buttonSubmit" value="Add Movie" /></p>
+        </fieldset>
+    </form>
+</body>
+</html>
